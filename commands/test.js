@@ -3,5 +3,6 @@ module.exports.run = (client, message, args) => {
 };
 
 module.exports.info = {
-    name: "test"
+    name: "test",
+    aliases: ["test", "teste"]
 }

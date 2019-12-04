@@ -28,3 +28,4 @@ allClients = [{
 }];
 
 module.exports = allClients;
+module.exports.ClientsArray = [topClient, jungleClient, midClient, adcClient, supClient];

@@ -7,7 +7,7 @@ readdir(`./commands/`, async (err, files) => {
 
     for (const file of files) {
         props = require(`../commands/${file}`);
-        commandsMap.set(props.info.name, props);
+        props.info.aliases.map(name => commandsMap.set(name, props));
     };
 
 });
